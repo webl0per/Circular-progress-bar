@@ -1,6 +1,8 @@
 # Circular-progress-bar
 Circular progress bar using HTML5, CSS Bootstrap, jQuery.
-## Follow me
+## About us
+We share information, tips and trick about programming on different social media platforms. We are mainly active on YouTube and we want to provide the advanced programming knowledge that usually a normal online course or in general programming course doesn't provide. 
+## Follow us
 This code is brought to you by Webloper. We are active on (almost) all social media. Below are the social media links you can follow us on.
 
 [Youtube](https://www.youtube.com/channel/UCDKMHO1qpGzejK76XxL_2AA) : https://www.youtube.com/channel/UCDKMHO1qpGzejK76XxL_2AA
@@ -16,7 +18,7 @@ This code is brought to you by Webloper. We are active on (almost) all social me
 [Official Website](https://webloper.ml) : https://webloper.ml
 
 ## Donate
-If you like my work please consider donating using the paypal link below.
+If you like our work please consider donating using the paypal link below.
 
 <a href="https://www.paypal.me/pratik0286"><img width="156px" height="46px" src="https://i.ibb.co/2sLtSzP/Paypal-donate-button.png" alt="Paypal-donate-button" border="0"></a>
 
