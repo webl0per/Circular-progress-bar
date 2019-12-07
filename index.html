@@ -1,0 +1,111 @@
+<!--  
+                               <Webloper/>
+        Youtube : https://www.youtube.com/channel/UCDKMHO1qpGzejK76XxL_2AA
+        Instagram : https://www.instagram.com/webl0per/
+        Twitter : https://twitter.com/webl0per
+        Github : https://github.com/webl0per?tab=repositories
+        CodePen : https://codepen.io/webloper
+        Website : https://webloper.ml
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Circle Progress Bar | Webdevtrick.com</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Container containing all the elements -->
+    <div class="circleBar">
+      <!-- Webloper title -->
+      <a
+        class="main_title"
+        href="https://webloper.ml"
+      >
+        < Webloper/>
+      </a>
+      <h3 class="title">Circular Progress Bar</h3>
+      <!-- Refresh button -->
+      <button class="btn" onClick="CircleBar('.round');">Refresh</button>
+      <!-- Container for circular progress bar -->
+      <div class="container ">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div
+              class="round"
+              data-value="0.65"
+              data-size="160"
+              data-thickness="4"
+            >
+              <strong></strong>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="round"
+              data-value="1"
+              data-size="160"
+              data-thickness="4"
+            >
+              <strong></strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="webloper-sm">
+        <div>
+          <a href="https://www.youtube.com/channel/UCDKMHO1qpGzejK76XxL_2AA"
+            ><img
+              class="sm"
+              src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png"
+              alt="webloper-youtube"
+          /></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/webl0per/"
+            ><img
+              class="sm"
+              src="https://cdn4.iconfinder.com/data/icons/social-media-2146/512/25_social-512.png"
+              alt="webloper-instagram"
+          /></a>
+        </div>
+        <div>
+          <a href="https://twitter.com/webl0per"
+            ><img
+              class="sm"
+              src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/twitter-512.png"
+              alt="webloper-twitter"
+          /></a>
+        </div>
+        <div>
+          <a href="https://github.com/webl0per?tab=repositories"
+            ><img
+              class="sm"
+              src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png"
+              alt="webloper-github"
+          /></a>
+        </div>
+        <div>
+          <a href="https://codepen.io/webloper"
+            ><img
+              class="sm"
+              src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-32-512.png"
+              alt="webloper-codepen"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>
+    <script src="function.js"></script>
+  </body>
+</html>

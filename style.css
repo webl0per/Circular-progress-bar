@@ -1,0 +1,72 @@
+/*                               <Webloper/>
+        Youtube : https://www.youtube.com/channel/UCDKMHO1qpGzejK76XxL_2AA
+        Instagram : https://www.instagram.com/webl0per/
+        Twitter : https://twitter.com/webl0per
+        Github : https://github.com/webl0per?tab=repositories
+        CodePen : https://codepen.io/webloper
+        Website : https://webloper.ml
+*/
+body {
+  background-color: #161b21;
+}
+
+.main_title {
+  text-decoration: none;
+  color: #ff983b;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.main_title:hover {
+  text-decoration: none;
+  color: #ffd835;
+}
+
+.title {
+  color: #00eaff;
+}
+
+.circleBar {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.circleBar .round {
+  min-height: 255px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.circleBar .round strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  transform: translate(-50%);
+  font-size: 40px;
+  color: #00eaff;
+  font-weight: 100;
+}
+
+.btn {
+  align-self: center;
+  margin-top: 1px;
+}
+
+.btn:hover {
+  background-color: #00eaff;
+}
+
+.webloper-sm {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.sm {
+  align-self: center;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
